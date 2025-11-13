@@ -54,7 +54,7 @@ export default function Contact() {
         transition={{ duration: 0.8 }}
         className="relative z-10 max-w-2xl h-[60%] w-full md:h-[80%] bg-white dark:bg-gray-800 rounded-xl p-10 shadow-lg"
       >
-        <p className="text-gray-800 font-mono text-lg md:text-lg dark:text-gray-400 mb-6 text-justify">
+        <p className="text-gray-800 font-mono md:text-lg md:text-justify dark:text-gray-400 mb-6">
           If you have any questions or concerns, please don't hesitate to contact me. I am open to any work opportunities that align with my skills and interests.
         </p>
 
