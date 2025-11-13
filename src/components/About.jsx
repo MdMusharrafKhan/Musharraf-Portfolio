@@ -123,7 +123,7 @@ export default function About() {
 
       {/* Content */}
       <div className="relative z-10 max-w-[90%] auto-x px-6">
-        <h2 className="text-4xl md:text-4xl font-bold mb-6">About Me</h2>
+        <h2 className="text-4xl md:text-4xl font-bold mb-6 mt-20">About Me</h2>
         <p className="text-lg md:text-xl leading-relaxed md:leading-8 text-left md:text-justify py-5 md:backdrop-blur-1">
 
           Hi, I’m <span className="font-semibold"> Mohammed Musharraf Khan</span> 👋, a Computer Science graduate and a problem solver passionate about turning ideas into impactful digital solutions. I have hands-on experience in full-stack development, cloud technologies, AI-driven applications, and solid foundations in Data Structures and Algorithms, which help me write optimized and scalable code. <br /> <br /> I’ve built end-to-end applications like a real-time chat application, an AI-powered music recommendation system, an attendance management system, and even this portfolio itself. <br/> <br/>I thrive on learning new technologies, writing clean and efficient code, and building solutions that blend innovation with usability. My goal is to grow as a developer while contributing to projects that make a real difference. I’m always curious to learn, explore new tools, and take on challenges that push me to grow. Beyond coding, I’m passionate about solving problems, experimenting with projects, and creating digital experiences that make an impact.

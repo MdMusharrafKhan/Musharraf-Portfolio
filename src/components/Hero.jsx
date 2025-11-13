@@ -54,17 +54,17 @@ export default function Hero() {
             target="_blank"
             rel="noreferrer"
           >
-            <FaGithub className="w-7 h-7 md:w-12 md:h-12 hover:text-gray-500 dark:hover:text-indigo-400" />
+            <FaGithub className="w-7 h-7 md:w-12 md:h-12 hover:text-gray-500 dark:hover:text-gray-600" />
           </a>
           <a
             href="https://linkedin.com/in/mdmusharrafkhan"
             target="_blank"
             rel="noreferrer"
           >
-            <FaLinkedin className="w-7 h-7 md:w-12 md:h-12 hover:text-indigo-700 dark:hover:text-indigo-400" />
+            <FaLinkedin className="w-7 h-7 md:w-12 md:h-12 hover:text-indigo-700 dark:hover:text-indigo-700" />
           </a>
           <a href="mailto:mdmusharrafk@gmail.com">
-            <Mail className="w-7 h-7 md:w-12 md:h-12 hover:text-green-600 dark:hover:text-indigo-400" />
+            <Mail className="w-7 h-7 md:w-12 md:h-12 hover:text-green-600 dark:hover:text-green-600" />
           </a>
         </div>
       </motion.div>

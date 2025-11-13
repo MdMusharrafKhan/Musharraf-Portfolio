@@ -59,8 +59,8 @@ export default function Projects() {
               whileHover={{ scale: 1.05, cursor: "pointer" }}
               className="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-6"
             >
-              <h3 className="text-2xl font-semibold mb-2 flex items-center gap-2">
-                <Briefcase className="text-indigo-600 dark:text-indigo-400" /> {p.title}
+              <h3 className="text-xl font-semibold mb-2 items-center gap-2 flex">
+                <Briefcase className="text-indigo-600 dark:text-indigo-400 size-auto" /> {p.title}
               </h3>
               <p className="text-gray-600 text-lg dark:text-gray-400 mb-3">{p.desc}</p>
               {(
