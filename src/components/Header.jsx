@@ -33,7 +33,7 @@ export default function Header() {
   return (
     <header className="flex  justify-between items-center px-6 py-4 shadow-md bg-white/80 dark:bg-gray-900/80 backdrop-blur-md sticky top-0 z-50 border-b-0 font-mono">
       {/* Logo / Name */}
-      <a href="Hero.jsx" className="text-xl md:text-2xl font-bold text-indigo-600 dark:text-indigo-400 hover:scale-105 transition-transform cursor-pointer">
+      <a href="#hero" className="text-xl md:text-2xl font-bold text-indigo-600 dark:text-indigo-400 hover:scale-105 transition-transform cursor-pointer">
        Musharraf Khan
       </a>
 
