@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom font (optional, you can replace with Google Fonts) */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
+
+@keyframes slide {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+.animate-slide {
+  animation: slide 0.5s linear forwards;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gridmove {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 40px 40px;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+
+
+@keyframes moveDot {
+  0% { transform: translate(0, 0); opacity: 0.5; }
+  50% { transform: translate(20px, 20px); opacity: 1; }
+  100% { transform: translate(-20px, -20px); opacity: 0.5; }
+}
+
+.animate-dot {
+  animation-name: moveDot;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+/*Projects*/
+@keyframes floatLogo {
+  0% { transform: translateY(0px) translateX(0px) rotate(0deg); }
+  50% { transform: translateY(-20px) translateX(10px) rotate(15deg); }
+  100% { transform: translateY(0px) translateX(0px) rotate(0deg); }
+}
